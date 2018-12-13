@@ -31,5 +31,7 @@ This will install the generator globally, then you can implement the same using 
 ![14th](https://user-images.githubusercontent.com/3886381/49954930-a0b7af00-ff27-11e8-8a1a-3f2bca86e207.png)
 ![15th](https://user-images.githubusercontent.com/3886381/49954931-a0b7af00-ff27-11e8-9724-79862ab4efbc.png)
 ![16th](https://user-images.githubusercontent.com/3886381/49954932-a1504580-ff27-11e8-8174-9d6cc85cfd56.png)
+![17th](https://user-images.githubusercontent.com/3886381/49956193-9ba82f00-ff2a-11e8-9cd7-4f5b625967ba.png)
+![18th](https://user-images.githubusercontent.com/3886381/49956196-9c40c580-ff2a-11e8-9554-536f9ab44727.png)
 
 I hope you would have liked this generator. For more info around my technical write-ups, you can check my blog [My View](https://myview.rahulnivi.net) and follow me on [Twitter](https://twitter.com/rahulsahay19)
