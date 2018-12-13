@@ -1,0 +1,16 @@
+<mat-toolbar color="primary">
+  <button class="sidenav-toggle"  mat-button (click)="toggleSidenav.emit()">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span>Employee Manager - Sample CRUD demo using angular and material design</span>
+  <span class="example-spacer"></span>
+  <button mat-button [matMenuTriggerFor]="menu">
+    <mat-icon>more_vert</mat-icon>
+  </button>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item (click)="openEmployeeDialog()">New Employee</button>
+  <button mat-menu-item (click)="toggleDir.emit()" >Toggle Dir</button>
+  </mat-menu>
+
+  
+</mat-toolbar>

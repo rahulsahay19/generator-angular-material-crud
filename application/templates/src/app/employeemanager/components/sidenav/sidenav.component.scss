@@ -1,0 +1,34 @@
+.app-sidenav-container {
+    flex: 1;
+    position: fixed;
+    width: 100%;
+    min-width: 100%;
+    height: 100%;
+    min-height: 100%;
+  }
+  
+  .app-sidenav-content {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+  }
+  
+  .app-sidenav {
+    width: 240px;
+  }
+  
+  .wrapper {
+    margin: 50px;
+  }
+    
+  .copyright-container {
+    height: 64px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    background: #F5F5F5;
+    width: 100%;
+    padding: 26px 0;
+    font-size: 12px;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}

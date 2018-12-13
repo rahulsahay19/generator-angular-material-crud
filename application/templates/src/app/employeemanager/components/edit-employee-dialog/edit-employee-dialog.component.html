@@ -1,0 +1,41 @@
+<h2 mat-dialog-title>Edit Employee</h2>
+<mat-dialog-content [formGroup]="form">
+  <div class="example-container">
+      <mat-form-field>
+          <input matInput placeholder="id" formControlName="id" readonly="readonly" #idvalue />
+        </mat-form-field>
+        <mat-form-field style="display:none">
+            <input matInput placeholder="index" formControlName="index" readonly="readonly" #indexvalue />
+          </mat-form-field>
+    <mat-form-field>
+         <mat-select placeholder="Avatar" formControlName="avatar">
+         <mat-option *ngFor="let avatar of avatars" [value]="avatar">
+          <mat-icon svgIcon="{{avatar}}"></mat-icon> {{avatar}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+    
+    <mat-form-field>
+      <input matInput placeholder="Name" formControlName="name" />
+    </mat-form-field>
+
+    <mat-form-field>
+        <input matInput [matDatepicker]="picker" placeholder="Birthday" formControlName="birthDate" >
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field>
+      
+    <mat-form-field>
+      <textarea matInput placeholder="Bio" formControlName="bio"></textarea>
+    </mat-form-field>
+  </div>
+</mat-dialog-content>
+
+<mat-dialog-actions>
+  <button mat-button color="primary" (click)="onEdit(indexvalue)">
+    <mat-icon>save</mat-icon> Save
+  </button>
+  <button mat-button color="primary" (click)="onCancel()">
+    <mat-icon>cancel</mat-icon> Cancel
+  </button>
+</mat-dialog-actions>
