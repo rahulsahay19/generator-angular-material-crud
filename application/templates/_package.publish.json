@@ -1,0 +1,10 @@
+{
+    "name": "<%= name %>",
+    "version": "<%= version %>",
+    "description": "<%= name %> application package",
+    "license": "SEE LICENSE IN LICENSE",
+    "author": "<%= authorname %>",
+    "scripts": {
+    }
+  }
+  

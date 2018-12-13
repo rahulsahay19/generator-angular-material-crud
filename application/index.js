@@ -9,7 +9,7 @@ module.exports = class extends yeoman {
 
     /** Ask for user input */
     prompting() {
-        this.log(yosay('You are about to create a Sample Angular CRUD Application!'));
+        this.log(yosay('You are about to create a Sample Angular Material CRUD Application!'));
         return this.prompt([{
             type: 'input',
             name: 'name',
@@ -122,20 +122,6 @@ module.exports = class extends yeoman {
 
     end() {
         this.log('Application ' + this.props.name + ' created.');
-        this.log('Source code is located under .\\src.');
-        this.log('Tests specs are alongside the source code files using the <file>.spec.ts pattern.');
-        this.log('End-to-end tests are under e2e folder.');
-        this.log('');
-        this.log('To build the code: npm run build');
-        this.log('To build the code in development mode: npm run build-dev');
-        this.log('');
-        this.log('Project output will be located in the .\\dist directory');
-        this.log('');
-        this.log('To lint the code: npm run lint');
-        this.log('');
-        this.log('To run the unit tests: npm run test');
-        this.log('');
-        this.log('To run the end-to-end tests: npm run e2e');
         this.log('');
         this.log('For more info, you can check details on https://myview.rahulnivi.net. Application developed by Rahul Sahay!');
         this.log('Goodbye.');
