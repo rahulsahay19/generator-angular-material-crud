@@ -1,6 +1,6 @@
 # NgMaterial
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.0.
+This project is updated to [Angular CLI](https://github.com/angular/angular-cli) version 8.
 
 ## Development server
 
