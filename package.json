@@ -33,11 +33,11 @@
     "devDependencies": {},
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/rahulsahay19/ngMaterialCrud"
+        "url": "git+https://github.com/rahulsahay19/generator-angular-material-crud#readme"
     },
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/rahulsahay19/ngMaterialCrud/issues"
+        "url": "https://github.com/rahulsahay19/generator-angular-material-crud/issues"
     },
     "homepage": "https://github.com/rahulsahay19/generator-angular-material-crud#readme"
 }
