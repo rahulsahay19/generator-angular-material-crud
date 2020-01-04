@@ -1,6 +1,6 @@
 {
     "name": "generator-angular-material-crud",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Yeoman generator for Angular Material Sample CRUD Application",
     "author": "Rahul Sahay",
     "files": [],
@@ -8,7 +8,7 @@
         "yeoman-generator",
         "angular-cli",
         "angular",
-        "angular 7",
+        "angular 8",
         "angular material",
         "material",
         "angular sample",
@@ -24,6 +24,7 @@
     ],
     "scripts": {},
     "dependencies": {
+        "@angular/cdk": "^8.2.3",
         "uuid": "^3.2.1",
         "validate-npm-package-name": "^3.0.0",
         "yeoman-generator": "^2.0.2",
