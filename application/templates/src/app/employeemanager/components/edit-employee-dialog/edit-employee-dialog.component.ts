@@ -10,8 +10,8 @@ import { FormGroup, FormBuilder } from '@angular/forms';
   styleUrls: ['./edit-employee-dialog.component.scss']
 })
 export class EditEmployeeDialogComponent implements OnInit {
-  @ViewChild('idvalue') idvalue: ElementRef;
-  @ViewChild('indexvalue') indexvalue : ElementRef;
+  @ViewChild('idvalue', { static: true }) idvalue: ElementRef;
+  @ViewChild('indexvalue', { static: true }) indexvalue : ElementRef;
   form: FormGroup;
   avatars = [
     'svg-1', 'svg-2', 'svg-3', 'svg-4'

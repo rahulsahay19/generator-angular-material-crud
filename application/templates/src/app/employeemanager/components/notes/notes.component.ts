@@ -12,7 +12,7 @@ export class NotesComponent implements OnInit {
   @Input() notes: Note[];
   displayedColumns: string[] = ['position', 'title', 'date'];
   dataSource :MatTableDataSource<Note>; 
-  @ViewChild(MatPaginator) paginator: MatPaginator;
+  @ViewChild(MatPaginator, { static: true }) paginator: MatPaginator;
   
   constructor() { }
 
