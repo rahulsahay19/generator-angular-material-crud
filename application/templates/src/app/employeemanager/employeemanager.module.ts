@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MaterialModule } from '../shared/material.module';
 import { FormsModule, ReactiveFormsModule, FormControl, FormGroup } from '@angular/forms';
-import { FlexLayoutModule } from '@angular/flex-layout';
 import { EmployeemanagerAppComponent } from './employeemanager-app.component';
 import { ToolbarComponent } from './components/toolbar/toolbar.component';
 import { MainContentComponent } from './components/main-content/main-content.component';
@@ -23,15 +22,13 @@ import { EditEmployeeDialogComponent } from './components/edit-employee-dialog/e
     NewEmployeeDialogComponent,
     DetailviewComponent,
     NotesComponent,
-    EditEmployeeDialogComponent,
-    
+    EditEmployeeDialogComponent
   ],
   imports: [
     CommonModule,
     MaterialModule,
     FormsModule,
     ReactiveFormsModule,
-    FlexLayoutModule,
     HttpClientModule,
     EmployeeManagerRoutingModule
   ],
